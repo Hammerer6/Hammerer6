@@ -1,0 +1,5 @@
+sep是print函数的一个参数，用来定义输出参数之间的间隔符号
+如
+str1=1
+str2=2
+print(str1,str2,sep="\n") #分别两行输出
