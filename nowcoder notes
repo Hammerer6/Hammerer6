@@ -50,3 +50,27 @@ print(str.title())          # 把每个单词的第一个字母转化为大写�
 .rtrip()
 .replace("","")删除所有空格
 .split()切分     .join()拼接
+
+
+
+
+split()方法   切割字符串，切割后字符串已经是列表的形式
+str.split(str="", num=string.count(str))
+str -- 分隔符，默认为所有的空字符，包括空格、换行(\n)、制表符(\t)等。
+num -- 分割次数。默认为 -1, 即分隔所有。
+
+
+map() 方法 
+map() 会根据提供的函数对指定序列做映射。
+第一个参数 function 以参数序列中的每一个元素调用 function 函数，返回包含每次 function 函数返回值的新列表。
+map(function, iterable, ...)
+
+
+列表list处理
+insert(插入的引索值,插入的值)
+append() 追加
+extend() 扩展
+del list[要删除元素的索引值]
+remove(指定要删除的“元素”)
+
+
