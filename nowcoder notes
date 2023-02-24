@@ -82,3 +82,8 @@ sort 是应用在 list 上的方法，sorted 可以对所有可迭代的对象�
 list 的 sort 方法返回的是对已经存在的列表进行操作，无返回值，而内建函数 sorted 方法返回的是一个新的 list，而不是在原来的基础上进行的操作。
 sorted(iterable, cmp=None, key=None, reverse=False)
 reverse -- 排序规则，reverse = True 降序 ， reverse = False 升序（默认）。
+
+
+join()方法  返回通过指定字符连接序列中元素后生成的新字符串。
+str.join(要连接的元素序列)
+
