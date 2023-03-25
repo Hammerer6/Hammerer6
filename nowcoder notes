@@ -62,7 +62,7 @@ num -- 分割次数。默认为 -1, 即分隔所有。
 
 map() 方法 
 map() 会根据提供的函数对指定序列做映射。
-第一个参数 function 以参数序列中的每一个元素调用 function 函数，返回包含每次 function 函数返回值的新列表。
+第一个参数 function 以参数序列中的每一个元素调用 function 函数，返回包含每次 function 函数返回值的新迭代值（python3.x）。
 map(function, iterable, ...)
 
 
